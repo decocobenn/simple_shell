@@ -2,10 +2,10 @@
 #define _SHELL_H_
 
 /*
- * File: shell.h
- * Auth: Alex Yu
- *       Brennan D Baraban
- */
+* File: shell.h
+* Auth: Alex Yu
+*       Brennan D Baraban
+*/
 
 #include <fcntl.h>
 #include <signal.h>
@@ -50,11 +50,11 @@ typedef struct builtin_s
 } builtin_t;
 
 /**
- * struct alias_s - A new struct defining aliases.
- * @name: The name of the alias.
- * @value: The value of the alias.
- * @next: A pointer to another struct alias_s.
- */
+* struct alias_s - A new struct defining aliases.
+* @name: The name of the alias.
+* @value: The value of the alias.
+* @next: A pointer to another struct alias_s.
+*/
 typedef struct alias_s
 {
 	char *name;
